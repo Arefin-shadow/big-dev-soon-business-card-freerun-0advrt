@@ -2,7 +2,17 @@
 <html lang="en-US">
   <bds />
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Poppins:wght@400;600&display=swap" rel="stylesheet">  
     <style>
+      a {
+        text-decoration: none;
+        color: white;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
       .emptyCard {
         height: 500px;
         background-color: white;
@@ -14,9 +24,32 @@
         margin: 10% auto;
         width: 70%;
       }
+      .contact {
+        font-family: 'Poppins',sans-serif;
+        color: white;
+        width: 40%;
+        padding-top: 150px;
+        padding-left: 20px;
+        padding-bottom: 20px;
+      }
     </style>
   </head>
   <body style="background-color: rgba(113, 220, 184, 0.367)">
-    <div class="emptyCard center"></div>
+    <div class="emptyCard center">
+      <div class="contact" style="background-color: rgb(31, 120, 31); margin-bottom: 20px; border-radius: 10px 0 0 0;">
+        <p><img src="icons/email-icon.svg" alt="email"> Email</p>
+        <a href="arefinlabib14@gmail.com">arefinlabib14@gmail.com</a>
+        <p><img src="icons/phone-icon.svg" alt="phone-icon"> Phone</p>
+        <a href="tel:(+880)01701289186">(+880) 17 012 89 186</a>
+      </div>
+      <div class="contact" style="background-color: rgb(31, 120, 31); padding-top: 20px;padding-bottom: 40px; border-radius: 0 0 0 10px;">
+        <p>Find me on</p>
+        <nav>
+          <a href="https://github.com/Arefin-shadow"><img src="icons/github-icon.svg" alt=""></a>
+          <a href="https://www.linkedin.com/in/arefin-labib-124194246/"><img src="icons/linkedin-icon.svg" alt=""></a>
+          <a href="https://www.facebook.com/arefin.labib.370"><img src="icons/twitter-icon.svg" alt=""></a>
+        </nav>
+      </div>
+    </div>
   </body>
 </html>
