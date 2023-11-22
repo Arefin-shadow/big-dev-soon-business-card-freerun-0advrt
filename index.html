@@ -36,6 +36,7 @@
         margin:auto;
         border-radius: 20px;
         box-shadow:0px 5px 10px 1px rgba(251, 249, 249, 0.3);
+        display: flex;
         }
         .contact {
             width: 40%;
@@ -74,13 +75,21 @@
             transform: scale(1.2);
         }
         .user-info {
-            width: 37%;
-            border-radius: 0 20px 20px 0;
-            padding: 10px;
-            margin-top: 100px;
+            position: absolute;
+            left: 55%;
+            padding: 0px 30px;
+        }
+        .user-info1 {
+            position: absolute;
+            left: 55%;
+            top: 30%;
+            padding: 0px 30px;
+            margin-top: 10px;
+            max-height: 50vh;
+            overflow: auto;
         }
         .user-name {
-            font-size: 200%;
+            font-size: 180%;
             font-weight: bold;
             text-transform: uppercase;
             line-height: 1.2;
@@ -99,6 +108,22 @@
     <div class="container">
         <div class="card-container">
             <img src="mike.jpg" alt="" class="picture">
+            <div class="user-info user-name">
+                <h1><span style="color: rgba(89, 0, 0, 0.999);">Labib Ul</span> <br> Arefin</h1>
+            </div>
+            <div class="user-info1">
+                <h2>Front-end Developer &#x2022; Dhaka</h2>
+                <p>I am a dedicated and creative front-end developer with a strong foundation in crafting immersive and responsive user interfaces. My journey into the world of web development began with a passion for turning ideas into engaging digital experiences. I thrive on the challenges of transforming design concepts into elegant, functional, and user-friendly websites.</p>
+                <h3>Technology Skills:</h3>
+                <ul>
+                    <li>JavaScript</li>
+                    <li>React</li>
+                    <li>Python</li>
+                    <li>Statistics</li>
+                    <li>NumPy</li>
+                    <li>SQL</li>
+                </ul>
+            </div>
             <div class="contact">
                 <div class="contact-details">
                     <div>
@@ -116,9 +141,9 @@
                 <div class="contact-social-media">
                     <p>Find me on</p>
                     <nav class="social-media-icons">
-                        <a href="https://github.com/Arefin-shadow"><img src="icons/github-icon.svg" alt=""></a>
-                        <a href="https://www.linkedin.com/in/arefin-labib-124194246/"><img src="icons/linkedin-icon.svg" alt=""></a>
-                        <a href="https://www.facebook.com/arefin.labib.370"><img src="icons/twitter-icon.svg" alt=""></a>
+                        <a href="https://github.com/Arefin-shadow" target="_blank"><img src="icons/github-icon.svg" alt=""></a>
+                        <a href="https://www.linkedin.com/in/arefin-labib-124194246/" target="_blank"><img src="icons/linkedin-icon.svg" alt=""></a>
+                        <a href="https://www.facebook.com/arefin.labib.370" target="_blank"><img src="icons/twitter-icon.svg" alt=""></a>
                       </nav>
                 </div>
             </div>
@@ -127,4 +152,3 @@
     </div>
 
   </body>
-
